@@ -42,20 +42,20 @@ data-cleaning-and-modeling-toolkit/
    cd data-cleaning-and-modeling-toolkit
 ```
 
-### 2.Create and activate a virtual environment:
+### 2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
-### 3.Install the dependencies:
+### 3. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-### 1.Data Processing
+### 1. Data Processing
 ```bash
 from src.data_processing import filter_dataframe_by_missing_data, create_imputation_models, impute_data
 
@@ -73,7 +73,7 @@ categorical_imputer, label_encoders, regressors, categorical_cols, numeric_cols 
 imputed_test_df = impute_data(test_df, categorical_imputer, label_encoders, regressors, categorical_cols, numeric_cols)
 ```
 
-### 2.Model Training
+### 2. Model Training
 ```bash
 from src.modeling import train_model, test_model
 
@@ -84,7 +84,7 @@ trained_model = train_model(train_df_processed, selected_features, 'data/process
 test_model(trained_model, test_df_processed, selected_features, 'data/processed')
 ```
 
-### 3.Visualizing Missing Data
+### 3. Visualizing Missing Data
 ```bash
 from src.visualization import visualize_missing_data
 
