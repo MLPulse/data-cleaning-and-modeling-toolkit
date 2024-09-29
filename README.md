@@ -31,8 +31,7 @@ data-cleaning-and-modeling-toolkit/
 │
 ├── requirements.txt       # Required Python dependencies
 ├── README.md              # Project documentation
-├── .gitignore             # Files to be ignored by Git
-└── LICENSE                # License file (MIT by default)
+└── .gitignore             # Files to be ignored by Git
 ```
 
 ## Installation
