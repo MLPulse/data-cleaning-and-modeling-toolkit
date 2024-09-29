@@ -9,6 +9,32 @@ This project provides a comprehensive toolkit for data cleaning, visualization, 
 - **Modeling**: Includes methods to train and evaluate machine learning models (e.g., Random Forest, XGBoost, Stacking).
 - **Visualization**: Offers data visualization tools to explore missing data, feature importance, and more.
 
+## Directory Structure
+```bash
+data-cleaning-and-modeling-toolkit/
+│
+├── data/                  # Directory for raw and processed data
+│   ├── raw/               # Raw data files (e.g., Train.csv, Test.csv)
+│   ├── processed/         # Processed or cleaned data files
+│
+├── src/                   # Source code directory
+│   ├── __init__.py        # Initialize the module
+│   ├── data_processing.py # Data cleaning and processing scripts
+│   ├── modeling.py        # Machine learning model training and evaluation
+│   └── visualization.py   # Data visualization functions
+│
+├── notebooks/             # Jupyter notebooks for EDA and experiments
+│   └── data_analysis.ipynb
+│
+├── tests/                 # Unit tests for the code
+│   └── test_data_processing.py
+│
+├── requirements.txt       # Required Python dependencies
+├── README.md              # Project documentation
+├── .gitignore             # Files to be ignored by Git
+└── LICENSE                # License file (MIT by default)
+```
+
 ## Installation
 
 ### 1. Clone the repository:
