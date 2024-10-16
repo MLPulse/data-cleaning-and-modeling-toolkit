@@ -26,8 +26,8 @@ data-cleaning-and-modeling-toolkit/
 ├── notebooks/             # Jupyter notebooks for EDA and experiments
 │   └── data_analysis.ipynb
 │
-├── tests/                 # Unit tests for the code
-│   └── test_data_processing.py
+├── test_data_processing.py # test notebook for the code
+ 
 │
 ├── requirements.txt       # Required Python dependencies
 ├── README.md              # Project documentation
